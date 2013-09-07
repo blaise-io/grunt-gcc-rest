@@ -1,0 +1,9 @@
+# System - and IDE generated files
+.idea
+.DS_Store
+.Trashes
+node_modules
+npm-debug.log
+tmp
+Thumbs.db
+desktop.ini
