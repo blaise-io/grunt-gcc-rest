@@ -1,2 +1,2 @@
-/**jshint globalstrict:true, sub:true*/
+/**jshint globalstrict:true, sub:true, node:true*/
 'use strict';
