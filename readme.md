@@ -24,7 +24,7 @@ In your project's Gruntfile, add a section named `compile` to the data object pa
 
 ```js
 grunt.initConfig({
-    compile {
+    compile: {
         'path/to/compiled.js': ['path/to/file1.js', 'path/to/file2.js'],
         options: {
             params: {
