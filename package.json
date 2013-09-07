@@ -1,0 +1,22 @@
+{
+    "name": "grunt-gcc-rest",
+    "version": "0.1.0",
+    "homepage": "https://github.com/blaise-io/grunt-gcc-rest",
+    "author": {
+      "name": "Blaise Kal",
+      "url": "http://blaise.io/"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/cowboy/grunt-gruntplugin-example.git"
+    },
+    "bugs": {
+      "url": "https://github.com/blaise-io/grunt-gcc-rest/issues"
+    },
+    "dependencies": {
+        "grunt": "~0.4.1"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.1"
+    }
+}
