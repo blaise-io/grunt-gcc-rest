@@ -1,6 +1,6 @@
 # grunt-gcc-rest
 
-> Grunt plugin for compiling code using Google Closure compiler’s REST API.
+> Grunt plugin for compiling code using Google Closure Compiler’s REST API.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
