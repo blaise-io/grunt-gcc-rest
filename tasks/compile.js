@@ -1,5 +1,5 @@
-/**jshint globalstrict:true, sub:true, node:true*/
 'use strict';
+
 var gcc = require('gcc-rest');
 
 module.exports = function(grunt) {
@@ -20,6 +20,9 @@ module.exports = function(grunt) {
                 }
             });
 
+            gcc.console.error = grunt.log.error;
+            gcc.console.warn = grunt.log.warn;
+            gcc.console.info = grunt.log.writeln;
             gcc.params(options.params);
 
             /**
