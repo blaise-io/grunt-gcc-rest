@@ -55,6 +55,9 @@ Unsupported parameters will print a warning. grunt-gcc-rest does not overwrite G
 ```js
 grunt.initConfig({
     gcc_rest: {
+        files: {
+            'destination.js': ['source/*.js']
+        },
         options: {
             params: {
                 language: 'ECMASCRIPT5_STRICT',

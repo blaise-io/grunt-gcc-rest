@@ -1,8 +1,9 @@
 {
     "name": "grunt-gcc-rest",
     "description": "Grunt plugin for compiling code using Google Closure Compiler’s REST API.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "homepage": "https://github.com/blaise-io/grunt-gcc-rest",
+    "keywords": ["gruntplugin", "closure compiler", "gcc", "rest", "compile"],
     "author": {
         "name": "Blaise Kal",
         "email": "blaisekal@gmail.com",
@@ -39,8 +40,5 @@
     },
     "peerDependencies": {
         "grunt": "~0.4.1"
-    },
-    "keywords": [
-        "gruntplugin", "google", "closure", "compiler", "rest"
-    ]
+    }
 }
