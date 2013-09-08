@@ -4,7 +4,7 @@ var gcc = require('gcc-rest');
 
 module.exports = function(grunt) {
 
-    grunt.registerMultiTask('compile', 'Compile code using Google Closure Compiler’s REST API.', function() {
+    grunt.registerMultiTask('gcc_rest', 'Compile code using Google Closure Compiler’s REST API.', function() {
         var done = this.async();
         var options = this.options({
             params: {}

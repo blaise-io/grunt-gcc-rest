@@ -7,7 +7,7 @@ exports.compile = {
         // setup here if necessary
         done();
     },
-    test: function(test) {
+    tests: function(test) {
         var compiled = grunt.file.read('tmp/compiled.js');
         test.expect(1);
         test.equal(

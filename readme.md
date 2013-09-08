@@ -1,6 +1,6 @@
 # grunt-gcc-rest
 
-> Grunt plugin for compiling code using Google Closure Compiler’s REST API.
+> Grunt plugin for compiling code using Google Closure compiler’s REST API.
 
 ## Getting Started
 This plugin requires Grunt `~0.4.1`
@@ -22,15 +22,15 @@ with this line of JavaScript:
 grunt.loadNpmTasks('grunt-gcc-rest');
 ```
 
-## The "compile" task
+## The `gcc_rest` task
 
 ### Overview
-In your project's Gruntfile, add a section named `compile`
+In your project's Gruntfile, add a section named `gcc_rest`
 to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
-    compile: {
+    gcc_rest: {
         options: {
             params: {}
         }
@@ -54,13 +54,12 @@ Unsupported parameters will print a warning. grunt-gcc-rest does not overwrite G
 
 ```js
 grunt.initConfig({
-    compile: {
+    gcc_rest: {
         options: {
             params: {
-                output_info      : ['compiled_code', 'errors', 'warnings'],
-                language         : 'ECMASCRIPT5_STRICT',
+                language: 'ECMASCRIPT5_STRICT',
                 compilation_level: 'ADVANCED_OPTIMIZATIONS',
-                warning_level    : 'VERBOSE'
+                warning_level: 'VERBOSE'
             }
         }
     }
