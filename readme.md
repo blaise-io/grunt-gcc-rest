@@ -70,4 +70,5 @@ grunt.initConfig({
 ```
 
 ## Release History
+ - 2013-10-05: v0.1.2 Fix error in handling gcc-rest logging
  - 2013-09-08: v0.1.0 Initial version

@@ -22,7 +22,8 @@ module.exports = function(grunt) {
 
             gcc.console.error = grunt.log.error;
             gcc.console.warn = grunt.log.warn;
-            gcc.console.info = grunt.log.writeln;
+            gcc.console.info = grunt.log.ok;
+
             gcc.params(options.params);
 
             /**
