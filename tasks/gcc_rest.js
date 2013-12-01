@@ -26,29 +26,7 @@ module.exports = function(grunt) {
 
             gcc.params(options.params);
 
-            /**
-             * @param {{
-             *    errors: Object,
-             *    warnings: Object,
-             *    compiledCode: string
-             * }} json
-             */
             var handleResult = function(json) {
-                var k;
-                 var errors = json.errors || {};
-                 var warnings = json.warnings || {};
-
-                 for (k in errors) {
-                     if (errors.hasOwnProperty(k)) {
-                         grunt.log.error(errors[k]);
-                     }
-                 }
-                 for (k in warnings) {
-                     if (warnings.hasOwnProperty(k)) {
-                         grunt.log.warn(warnings[k]);
-                     }
-                 }
-
                  grunt.file.write(file.dest, json.compiledCode);
                  grunt.log.writeln('File "' + file.dest + '" created.');
                  done();

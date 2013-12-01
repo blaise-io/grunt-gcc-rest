@@ -70,6 +70,7 @@ grunt.initConfig({
 ```
 
 ## Release History
+ - 2013-11-08: v0.1.4 Let gcc-rest take care of error logging
  - 2013-11-08: v0.1.3 Fix issue when compiling multiple tasks
  - 2013-10-05: v0.1.2 Fix error in handling gcc-rest logging
  - 2013-09-08: v0.1.0 Initial version
