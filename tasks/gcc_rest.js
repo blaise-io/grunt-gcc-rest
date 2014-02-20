@@ -11,6 +11,9 @@ module.exports = function(grunt) {
         });
 
         this.files.forEach(function(file) {
+
+            gcc.startNewBatch();
+
             file.src.filter(function(filepath) {
                 if (!grunt.file.exists(filepath)) {
                     grunt.log.warn('Source file "' + filepath + '" not found.');
