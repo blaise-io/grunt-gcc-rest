@@ -25,10 +25,16 @@ module.exports = function(grunt) {
         gcc_rest: {
             tests: {
                 options: {
-                    params: {}
+                    params: {
+                        output_info: ['compiled_code', 'errors', 'warnings'],
+                        warning_level: 'VERBOSE'
+                    }
                 },
                 files: {
-                    'tmp/compiled.js': [
+                    'tmp/foo.js': [
+                        'test/fixtures/foo.js'
+                    ],
+                    'tmp/foo-bar.js': [
                         'test/fixtures/*.js'
                     ]
                 }
